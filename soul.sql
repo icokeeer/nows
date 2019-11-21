@@ -30,8 +30,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `soul` (
   `id` int(11) NOT NULL,
-  `title` varchar(300) NOT NULL,
-  `hits` varchar(100) NOT NULL
+  `souls_text` varchar(300) NOT NULL,
+  `like_count` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='毒鸡汤';
 
 --
